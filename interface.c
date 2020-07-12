@@ -5,7 +5,7 @@ int main()
 {
 	if(0 ==window())
 		return -1;
-	printf("hello\n");
+	printf("Welcome to the student management system\n");
 	return 0;
 }
 int window()
