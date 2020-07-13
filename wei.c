@@ -406,9 +406,9 @@ int menu()/* 界面*/
 								system("clear");
 								while(1){
 								int e1;
-								printf("\33[44;33m1:语文总分 2:语文平均分 3:语文最高分 4:语文最低分 5:退出\33[0m\n");
+								printf("\33[44;33m1:语文总分 2:语文平均分 3:语文最高分 4:语文最低分 5:语文各分段人数 6:退出\33[0m\n");
 									if ( scanf(" %d",&e1) == 1 ){
-										if( e1 == 5 ){
+										if( e1 == 6 ){
 											break;
 										}
 										else if( e1 == 1 ){
@@ -426,6 +426,9 @@ int menu()/* 界面*/
 										else if( e1 == 4 ){
 											system("clear");
 											/*	statistics1-4(); 	语文最低分*/
+										}
+										else if( e1 == 5 ){
+											/*	statistics1-5(); 	语文各分段人数*/
 										}
 										else{
 											system("clear");
@@ -445,9 +448,9 @@ int menu()/* 界面*/
 								system("clear");
 								while(1){
 								int e2;
-								printf("\33[44;33m1:数学总分 2:数学平均分 3:数学最高分 4:数学最低分 5:退出\33[0m\n");
+								printf("\33[44;33m1:数学总分 2:数学平均分 3:数学最高分 4:数学最低分 5:数学各分段人数 6:退出\33[0m\n");
 									if ( scanf(" %d",&e2) == 1 ){
-										if( e2 == 5 ){
+										if( e2 == 6 ){
 											break;
 										}
 										else if( e2 == 1 ){
@@ -465,6 +468,9 @@ int menu()/* 界面*/
 										else if( e2 == 4 ){
 											system("clear");
 											/*	statistics2-4(); 	数学最低分*/
+										}
+										else if( e2 == 5 ){
+											/*	statistics2-5(); 	数学各分段人数*/
 										}
 										else{
 											system("clear");
@@ -484,9 +490,9 @@ int menu()/* 界面*/
 								system("clear");
 								while(1){
 								int e3;
-								printf("\33[44;33m1:英语总分 2:英语平均分 3:英语最高分 4:英语最低分 5:退出\33[0m\n");
+								printf("\33[44;33m1:英语总分 2:英语平均分 3:英语最高分 4:英语最低分 5:英语各分段人数 6:退出\33[0m\n");
 									if ( scanf(" %d",&e3) == 1 ){
-										if( e3 == 5 ){
+										if( e3 == 6 ){
 											break;
 										}
 										else if( e3 == 1 ){
@@ -504,6 +510,9 @@ int menu()/* 界面*/
 										else if( e3 == 4 ){
 											system("clear");
 											/*	statistics3-4(); 	英语最低分*/
+										}
+										else if( e3 == 5 ){
+											/*	statistics3-5(); 	数学各分段人数*/
 										}
 										else{
 											system("clear");
